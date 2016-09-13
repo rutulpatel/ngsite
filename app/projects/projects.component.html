@@ -1,0 +1,27 @@
+    <section id="projects" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="brand-heading">{{ projectsDataHeader }}</h2>
+                <div class="container-fluid">
+                    <div class="row padding-5 education-details">
+                        <div class="col-md-12 text-left" *ngFor="let project of (projectsData | reverse)" >
+                            <hr>
+                            <dl>
+                                <dt><h3 class="light" style="text-transform: none;">{{ project.name }}</h3></dt>
+                                <dd>
+                                    <ul>
+                                        <div *ngFor="let description of project.details" >
+                                            <li>{{ description }}</li>
+                                        </div>  
+                                        <div *ngIf="project.link" >
+                                            <a target="_blank" href="{{ project.link }}">Link: <u>{{ project.link }}</u></a>
+                                        </div>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,21 @@
+<section id="education" class="container content-section text-center">
+    <div class="row  content-details">
+        <div class="col-xs-18 ">
+            <h2 class="brand-heading">{{ eduDataHeader | uppercase }}</h2>
+            <hr>
+            <div class="container-fluid">
+                <!-- School's rows -->
+                <div    class="row padding-5 education-details" 
+                        *ngFor="let rec of (eduData | reverse )" >
+                    <div class="col-xs-6 text-left">
+                        <h4>{{ rec.schoolName }}, {{ rec.location }}</h4>
+                        <h5 class="light">{{ rec.degree }}, {{ rec.fieldOfStudy }}<span *ngIf="rec.grade" >, {{ rec.grade }}</span></h5>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <h4>{{ rec.startDate | date:'y' }} - {{ rec.endDate | date:'y' }}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,133 @@
+{
+	"overview": [{
+		"firstName": "Rutul",
+		"lastName": "Patel",
+		"tagLine": "System Engineer @ AT&T",
+		"email": "rutul-patel@live.com"
+	}],
+	"experience": [{
+		"id": 1,
+		"title": "JR. ASSOCIATE",
+		"startDate": "07-01-2011",
+		"endDate": "08-01-2013",
+		"company": "SEJASMI INDUSTRIES",
+		"location": "DES PLAINES, IL",
+		"description": ["Moved Quickbooks database server from Windows server 2000 to 2008. And, configured wireless router and database server to access Quickbooks software wirelessly.Managed and performed backups of network shared drive and solved network issues.", "Managed and performed backups of network shared drive and solved network issues.", "Used Quickbooks for entering invoices, bills, etc.", "Created reports to keep track of raw materials and finished goods."],
+		"logoUrl": "img/sejasmi-logo.png"
+	}, {
+		"id": 2,
+		"title": "JR. PROGRAMMER",
+		"startDate": "08-01-2013",
+		"endDate": "02-01-2014",
+		"company": "FULTON TECHNOLOGIES",
+		"location": "ROSELLE, IL",
+		"description": ["Developed software applications for internal company use mainly using Java programming language and for android platform.", "Installed and provided support of desktop computers; and fixed network connectivity issues.", "Extensively used Design CAD software for creating drawings of different types of AT&T network poles.", "Installed company’s personal web-server using linux (Ubuntu 12.04) and moved their website from public server to the new private server.", "Developed android application for monitoring current status and health of about 200 tornado sirens that were installed in northern cities of Illinois by Fulton.", "Developed another android application similar to timesheet. This application let users to post clock in and out entries into database. It even works when there no network connection. It stores new entries into local phone’s database when internet connection is not available and syncs them with main database when internet is available.", "Used Java for android programming, PHP for server side scripting, ODBC to connect to existing database, sqlite for storing data internally in android, XML and JSON for data formatting, and AES encryption for security.", "Involved in providing over the phone support to field technicians.", "Worked under pressure to get certain tasks done on time."],
+		"logoUrl": "img/fulton-logo.jpg"
+	}, {
+		"id": 3,
+		"title": "AUTOMATION SCRIPT ENGINEER INTERN",
+		"startDate": "02-01-2014",
+		"endDate": "08-01-2014",
+		"company": "MOTOROLA MOBILITY",
+		"location": "CHICAGO, IL",
+		"description": ["Worked in automated mobile framework testing team which is responsible for testing stability and response time of key software features of Motorola phones.", "Throughly understood new software feature test requirements; to design test cases with technical details which were used by my team to write automated test scripts.", "Extensively used python programming language and other popular python libraries to write automated testing scripts. Heavily used Motorola’s internal aPython automation library functionalities for testing android phones.", "Automated daily repeated tasks by writing python scripts for them such as downloading new software builds from Jenkins and installing them on rack full of test phones simultaneously.", "Took Motorola’s internal software trainings (such as how to use aPython library?) and seminars (like understanding Google BigQuery).", "Wrote scripts to analyze and fetch the large amount of data into appropriate spreadsheets.", "Used Atlassian Jira for tracking build issues and features.", "Performed manual testing of the features that can't be tested automatically such as voice/video call quality, conference calling, etc.", "Worked in open office environment and loved it."],
+		"logoUrl": "img/moto-logo.png"
+	}, {
+		"id": 4,
+		"title": "RELEASE AUTOMATION ENGINEER",
+		"startDate": "08-01-2014",
+		"endDate": "04-01-2016",
+		"company": "NORTHERN TRUST",
+		"location": "CHICAGO, IL",
+		"description": ["Worked in middleware team who manages more than two hundred enterprise level applications for Northern Trust.", "Developed automated code migration/deployment workflows for applications in various platforms such as WebLogic, WebLogic Portal, Service Oriented Architecture (SOA), Oracle Service Bus (OSB), Tomcat & other platforms like .Net, Windows, Unix, Business Objects, DataStage, etc using CA Release Automation tool.", "Designed and developed load balancing logic into the workflows to make it more robust and foolproof during busy hours of deployments.", "Meticulously designed an automated Zero Downtime WebLogic deployment workflow for heavily used applications that can’t afford a downtime.", "Worked on on-boarding Docker project at Northern Trust. Involved in providing suggestions on how to design a Docker architecture for enterprise level applications and designed automated docker deployments POC workflow for future applications.", "Coordinated and worked closely with offshore team for automated code migration issues, bugs and features suggestions.", "Collaborated in team effort of upgrading CA Release Automation software to latest version and making in highly available.", "Performed root cause analysis of production issues.", "Designed and implemented end to end integration of continuous integration with continuos delivery using Bamboo and CA Release Automation.", "Responsible for supporting and improving automated deployments workflows of various middleware products.", "Working knowledge of source control software like Microsoft TFS and Stash.", "Worked with various technical teams while handling multiple projects.", "Documented tasks, standards and procedures for various projects."],
+		"logoUrl": "img/nt-logo.jpg"
+	}, {
+		"id": 5,
+		"title": "System Engineer",
+		"startDate": "05-31-2016",
+		"endDate": "",
+		"company": "AT&T",
+		"location": "DALLAS, TX",
+		"description": [],
+		"logoUrl": ""
+	}],
+	"education": [{
+		"id": 1,
+		"schoolName": "Asia English School",
+		"fieldOfStudy": "High School",
+		"startDate": "06-01-2004",
+		"endDate": "07-28-2008",
+		"degree": "Secondary Diplomas and Certificates",
+		"location": "INDIA",
+		"grade": ""
+	}, {
+		"id": 2,
+		"schoolName": "DeVry University",
+		"fieldOfStudy": "Computer Engineering Technology",
+		"startDate": "06-01-2011",
+		"endDate": "07-28-2014",
+		"degree": "Bachelor's Degree",
+		"location": "ADDISON, IL",
+		"grade": "3.95"
+	}],
+	"projects": [{
+		"id": 1,
+		"name": "Bluetooth & Music Toogle Switch",
+		"details": [
+			"Bluetooth & Music Toggle Switch is an android application which turns on and off music & bluetooth of android phone. I developed this application for personal use for my car. I had to go into menu to manually turn on bluetooth of my phone and then music. This application turns on both in a single tap."
+		],
+		"link": "https://github.com/rutulpatel/bluetooth-music-toggle"
+	}, {
+		"id": 2,
+		"name": "Hamming Code Application",
+		"details": [
+			"Hamming code is an android application. This is a very simple application which converts message of 10 bits into a hamming code by inserting hamming code checks bits to it."
+		],
+		"link": "https://github.com/rutulpatel/HammingCode"
+	}, {
+		"id": 3,
+		"name": "Logs Android Application",
+		"details": [
+			"Logs is an android application which pulls logs from remote firebird database and populates them into a list view. This project makes use of many different technologies. They are",
+			"Java - for android side coding",
+			"PHP - for server side coding",
+			"ODBC drivers - to connect to firebird server",
+			"JSON - for formatting the data",
+			"ActionBarSherlock library - to support older versions of android",
+			"AES 128 bits encryption - for data protection",
+			"Logs from the database are fetched, encoded into JSON form and encrypted with 128 bits by php script and the data received is first decrypted, decoded from JSON and populated into list view by java code in android application"
+		],
+		"link": ""
+	}, {
+		"id": 4,
+		"name": "Timesheet Android Application",
+		"details": [
+			"Timesheet is an android application which allows user to post clock in and clock out entries into remote MSSQL database. Technologies that this application uses are ",
+			"Java - for android side coding",
+			"PHP - for server side coding",
+			"JSON - for formatting the data",
+			"This application has a decent user interface from which a user can choose the time, location, date, etc. and enter it into remote MSSQL database. If user doesn't have internet connection then the app will store the entry in local sqllite database and posts it to remote database as soon as the internet is available."
+		],
+		"link": ""
+	}, {
+		"id": 5,
+		"name": "Flashlight Application",
+		"details": [
+			"This is a flashlight application which uses your phones flashlight at full intensity. There's a seekbar of the shape of an arc in the application which turns on and off the flashlight based on its position. If the arc is set to 100 then it will turn on and turn off the flashlight at full speed and if it is set to 0 then it will keep flashlight On. In addition to that, this flashlight is very simple and secured."
+		],
+		"link": "https://play.google.com/store/apps/details?id=com.onegoal.flashlight.app"
+	}, {
+		"id": 6,
+		"name": "SN Search -- ServiceNow Chrome Extension",
+		"details": [
+			"Google chrome omnibox extension to open Service-Now ticket directly through browser. Source code - https://github.com/rutulpatel/servicenow-lookup",
+			"*This product is not affiliated with Service-Now."
+		],
+		"link": "https://chrome.google.com/webstore/detail/sn-search/idkeaffmcbakhghefaafgpcdlnngkjge"
+	}],
+	"skills": [
+		"Python", "DevOps", "SQL", "JSON", "Java", "JavaScript", "Android", "Shell", "CA RA",
+    "DynaTrace", "Docker", "Git", "Jenkins", "Bamboo", "Apache", "WebLogic", "WebSphere",
+		"Windows", "Linux", "MacOs "
+	]
+}

@@ -1,0 +1,30 @@
+    <section id="experience" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="brand-heading">{{ expDataHeader }}</h2>
+                <div class="container-fluid">
+                    <div class="row padding-5 my-content-details" *ngFor="let exp of (expData | reverse)" >
+                        <hr>
+                        <h4 class="light">{{ exp.title }}, {{ exp.company }}</h4>
+                        <h5>{{ exp.startDate ? (exp.startDate | date:'MMM y') : "NO DATE" }} - {{ exp.endDate ? ( exp.endDate | date:'MMM y') : "PRESENT" }}</h5>
+                        <tr *ngIf="exp.description[0]" >
+                            <td class="col-xs-12 col-md-8" >
+                                <tr  *ngFor="let description of exp.description" >
+                                    <ul class="experience-details" *ngIf="description" >
+                                        <li>
+                                            {{ description }}
+                                        </li>
+                                    </ul>
+                                </tr>
+                            </td>
+                            <td class="col-xs-6 col-md-4">
+                                <div class="logo img-responsive center-block">
+                                    <img src="{{ exp.logoUrl }}" style=""/>
+                                </div>
+                            </td>
+                        </tr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
